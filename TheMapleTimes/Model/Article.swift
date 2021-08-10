@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Article: Codable {
+    var title: String?
+    var content: String?
+    var author: String?
+    var categories: [String]?
+    var pubDate: String?
+    var thumbnail: String?
+    var link: String?
+}

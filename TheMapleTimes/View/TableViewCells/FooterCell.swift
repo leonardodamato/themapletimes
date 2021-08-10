@@ -9,15 +9,24 @@ import UIKit
 
 class FooterCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var titleLabel: UILabel!
+    
+    func configure() {
+        contentView.backgroundColor = .systemRed
+        configureTitleLabel()
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func configureTitleLabel() {
+        titleLabel = UILabel()
+        contentView.addSubview(titleLabel)
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        titleLabel.textColor = .white
+        titleLabel.text = "The Maple Times. Created by Leonardo D'Amato"
+        
+        NSLayoutConstraint.activate([
+            titleLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            titleLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
+        ])
     }
-
 }

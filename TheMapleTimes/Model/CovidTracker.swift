@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct CovidTracker {
+    var confirmedCases: String
+    var numberOfDeaths: String
+}

@@ -14,6 +14,8 @@ class MenuCell: UITableViewCell, UIScrollViewDelegate {
     
     var stackView: UIStackView!
 
+    var menuItem: MenuItem?
+    var menuItemDidTap: (()->())?
     
     override func prepareForReuse() {
         stackView.removeFromSuperview()
@@ -56,8 +58,8 @@ class MenuCell: UITableViewCell, UIScrollViewDelegate {
         
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: container.topAnchor, constant: 5),
-            stackView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 20),
-            stackView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -20),
+            stackView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: Constants.Constraints.edgePadding),
+            stackView.trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: -Constants.Constraints.edgePadding),
             stackView.bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: 0),
         ])
     }
@@ -70,13 +72,15 @@ class MenuCell: UITableViewCell, UIScrollViewDelegate {
         stackView.distribution = .equalSpacing
         stackView.spacing = 12
         
-        let menuItems = MenuItems.allCases
+        let menuItems = MenuItem.allCases
         
         for item in menuItems {
             let button = TMTMenuButton(title: item.rawValue)
+            button.menuItem = item
+            button.addTarget(self, action: #selector(menuButtonDidTap(_:)), for: .touchUpInside)
             stackView.addArrangedSubview(button)
         }
-        
+         
         return stackView
     }
     
@@ -84,5 +88,10 @@ class MenuCell: UITableViewCell, UIScrollViewDelegate {
          if scrollView.contentOffset.y > 0 || scrollView.contentOffset.y < 0 {
             scrollView.contentOffset.y = 0
          }
+    }
+    
+    @objc func menuButtonDidTap(_ sender: TMTMenuButton) {
+        self.menuItem = sender.menuItem
+        menuItemDidTap?()
     }
 }

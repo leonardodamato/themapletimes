@@ -29,7 +29,7 @@ struct FeedService {
                 
                 if let itemsData = itemsData {
                     let decoder = try! JSONDecoder().decode([Article].self, from: itemsData)
-                    articles = decoder
+                    articles = decoder.filter({ $0.title != nil && $0.title!.count > 0})
                     completion(.success(articles))
                 } else {
                     completion(.failure(error ?? NSError()))
@@ -40,5 +40,4 @@ struct FeedService {
         }
         task.resume()
     }
-    
 }

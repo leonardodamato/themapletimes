@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029B8CF74B174D68139CC68E /* Pods_TheMapleTimes_TheMapleTimesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAA8605C73269D33E7A45FD /* Pods_TheMapleTimes_TheMapleTimesUITests.framework */; };
+		505E5482553B12B15B88DEE3 /* Pods_TheMapleTimes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4150E1617758C534BC0CC06 /* Pods_TheMapleTimes.framework */; };
+		A10454F6624B0F2158044B60 /* Pods_TheMapleTimesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C0B8A04C48091612B26DC /* Pods_TheMapleTimesTests.framework */; };
+		B920E23026610B3600E169D7 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920E22F26610B3600E169D7 /* MenuCell.swift */; };
+		B920E23526610B5B00E169D7 /* MenuCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920E23426610B5B00E169D7 /* MenuCellViewModel.swift */; };
+		B934C19A2664DDC9009CEA61 /* MainStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C1992664DDC9009CEA61 /* MainStoryCell.swift */; };
+		B934C1A22664DE5A009CEA61 /* SectionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C1A12664DE5A009CEA61 /* SectionTitleCell.swift */; };
+		B934C1A72664DEFE009CEA61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C1A62664DEFE009CEA61 /* Constants.swift */; };
+		B934C1AD2664EE54009CEA61 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B934C1AC2664EE54009CEA61 /* String+Ext.swift */; };
+		B93960C3266A208800069A80 /* CovidTrackerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960C2266A208800069A80 /* CovidTrackerCell.swift */; };
+		B93960C8266A20A200069A80 /* CovidTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960C7266A20A200069A80 /* CovidTracker.swift */; };
+		B93960CD266A2AB100069A80 /* CovidTrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960CC266A2AB100069A80 /* CovidTrackerService.swift */; };
+		B93960D2266E088000069A80 /* ArticlesByCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960D1266E088000069A80 /* ArticlesByCategoryViewController.swift */; };
+		B93960D7266E0AFF00069A80 /* ArticlesByCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960D6266E0AFF00069A80 /* ArticlesByCategoryViewModel.swift */; };
+		B93960DC266F606D00069A80 /* ShareArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93960DB266F606D00069A80 /* ShareArticleViewController.swift */; };
+		B93A02DF26661CDA00766CC1 /* SmallStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A02DE26661CDA00766CC1 /* SmallStoryCell.swift */; };
+		B93A02ED2666351700766CC1 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A02EC2666351700766CC1 /* UIFont+Ext.swift */; };
 		B95E7C5F2660E5D500DBD261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C5E2660E5D500DBD261 /* AppDelegate.swift */; };
 		B95E7C612660E5D500DBD261 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C602660E5D500DBD261 /* SceneDelegate.swift */; };
-		B95E7C632660E5D500DBD261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C622660E5D500DBD261 /* ViewController.swift */; };
-		B95E7C662660E5D500DBD261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95E7C642660E5D500DBD261 /* Main.storyboard */; };
 		B95E7C692660E5D500DBD261 /* TheMapleTimes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C672660E5D500DBD261 /* TheMapleTimes.xcdatamodeld */; };
 		B95E7C6B2660E5D800DBD261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95E7C6A2660E5D800DBD261 /* Assets.xcassets */; };
 		B95E7C6E2660E5D800DBD261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95E7C6C2660E5D800DBD261 /* LaunchScreen.storyboard */; };
 		B95E7C792660E5D800DBD261 /* TheMapleTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C782660E5D800DBD261 /* TheMapleTimesTests.swift */; };
 		B95E7C842660E5D800DBD261 /* TheMapleTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7C832660E5D800DBD261 /* TheMapleTimesUITests.swift */; };
+		B95E7CA32660E6B200DBD261 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7CA22660E6B200DBD261 /* HomeViewController.swift */; };
+		B95E7CAC2660E7BE00DBD261 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7CAB2660E7BE00DBD261 /* API.swift */; };
+		B95E7CB12660E8C400DBD261 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7CB02660E8C400DBD261 /* FeedService.swift */; };
+		B95E7CB92660F16C00DBD261 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E7CB82660F16C00DBD261 /* Article.swift */; };
+		B981E54026BA942B002A8B6B /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981E53F26BA942B002A8B6B /* FooterCell.swift */; };
+		B98DEC3B26610985000EAB74 /* TMTMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98DEC3A26610985000EAB74 /* TMTMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +57,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BFD459351FE6001042EB96 /* Pods-TheMapleTimes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimes.debug.xcconfig"; path = "Target Support Files/Pods-TheMapleTimes/Pods-TheMapleTimes.debug.xcconfig"; sourceTree = "<group>"; };
+		30AE36A972019DAFB0829024 /* Pods-TheMapleTimesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimesTests.release.xcconfig"; path = "Target Support Files/Pods-TheMapleTimesTests/Pods-TheMapleTimesTests.release.xcconfig"; sourceTree = "<group>"; };
+		485C0B8A04C48091612B26DC /* Pods_TheMapleTimesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMapleTimesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4150E1617758C534BC0CC06 /* Pods_TheMapleTimes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMapleTimes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B920E22F26610B3600E169D7 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B920E23426610B5B00E169D7 /* MenuCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellViewModel.swift; sourceTree = "<group>"; };
+		B934C1992664DDC9009CEA61 /* MainStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainStoryCell.swift; sourceTree = "<group>"; };
+		B934C1A12664DE5A009CEA61 /* SectionTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleCell.swift; sourceTree = "<group>"; };
+		B934C1A62664DEFE009CEA61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B934C1AC2664EE54009CEA61 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		B93960C2266A208800069A80 /* CovidTrackerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTrackerCell.swift; sourceTree = "<group>"; };
+		B93960C7266A20A200069A80 /* CovidTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTracker.swift; sourceTree = "<group>"; };
+		B93960CC266A2AB100069A80 /* CovidTrackerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTrackerService.swift; sourceTree = "<group>"; };
+		B93960D1266E088000069A80 /* ArticlesByCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesByCategoryViewController.swift; sourceTree = "<group>"; };
+		B93960D6266E0AFF00069A80 /* ArticlesByCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesByCategoryViewModel.swift; sourceTree = "<group>"; };
+		B93960DB266F606D00069A80 /* ShareArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareArticleViewController.swift; sourceTree = "<group>"; };
+		B93A02DE26661CDA00766CC1 /* SmallStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallStoryCell.swift; sourceTree = "<group>"; };
+		B93A02EC2666351700766CC1 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 		B95E7C5B2660E5D500DBD261 /* TheMapleTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMapleTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95E7C5E2660E5D500DBD261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B95E7C602660E5D500DBD261 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B95E7C622660E5D500DBD261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B95E7C652660E5D500DBD261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95E7C682660E5D500DBD261 /* TheMapleTimes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheMapleTimes.xcdatamodel; sourceTree = "<group>"; };
 		B95E7C6A2660E5D800DBD261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95E7C6D2660E5D800DBD261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +88,17 @@
 		B95E7C7F2660E5D800DBD261 /* TheMapleTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMapleTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95E7C832660E5D800DBD261 /* TheMapleTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMapleTimesUITests.swift; sourceTree = "<group>"; };
 		B95E7C852660E5D800DBD261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95E7CA22660E6B200DBD261 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B95E7CAB2660E7BE00DBD261 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B95E7CB02660E8C400DBD261 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
+		B95E7CB82660F16C00DBD261 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		B981E53F26BA942B002A8B6B /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		B98DEC3A26610985000EAB74 /* TMTMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMTMenuButton.swift; sourceTree = "<group>"; };
+		BAAA8605C73269D33E7A45FD /* Pods_TheMapleTimes_TheMapleTimesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheMapleTimes_TheMapleTimesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65D3871AC8BE886E87FF14 /* Pods-TheMapleTimesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimesTests.debug.xcconfig"; path = "Target Support Files/Pods-TheMapleTimesTests/Pods-TheMapleTimesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C576265785F212888918AB77 /* Pods-TheMapleTimes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimes.release.xcconfig"; path = "Target Support Files/Pods-TheMapleTimes/Pods-TheMapleTimes.release.xcconfig"; sourceTree = "<group>"; };
+		D83B0355BA7AC6ADF1A8B596 /* Pods-TheMapleTimes-TheMapleTimesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimes-TheMapleTimesUITests.release.xcconfig"; path = "Target Support Files/Pods-TheMapleTimes-TheMapleTimesUITests/Pods-TheMapleTimes-TheMapleTimesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E551D7D1B71A821D2EBF95C5 /* Pods-TheMapleTimes-TheMapleTimesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMapleTimes-TheMapleTimesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheMapleTimes-TheMapleTimesUITests/Pods-TheMapleTimes-TheMapleTimesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505E5482553B12B15B88DEE3 /* Pods_TheMapleTimes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10454F6624B0F2158044B60 /* Pods_TheMapleTimesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +122,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029B8CF74B174D68139CC68E /* Pods_TheMapleTimes_TheMapleTimesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47E80B0BE837F61612AB0AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4150E1617758C534BC0CC06 /* Pods_TheMapleTimes.framework */,
+				BAAA8605C73269D33E7A45FD /* Pods_TheMapleTimes_TheMapleTimesUITests.framework */,
+				485C0B8A04C48091612B26DC /* Pods_TheMapleTimesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A71346089EB212A051F8DC76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04BFD459351FE6001042EB96 /* Pods-TheMapleTimes.debug.xcconfig */,
+				C576265785F212888918AB77 /* Pods-TheMapleTimes.release.xcconfig */,
+				E551D7D1B71A821D2EBF95C5 /* Pods-TheMapleTimes-TheMapleTimesUITests.debug.xcconfig */,
+				D83B0355BA7AC6ADF1A8B596 /* Pods-TheMapleTimes-TheMapleTimesUITests.release.xcconfig */,
+				BC65D3871AC8BE886E87FF14 /* Pods-TheMapleTimesTests.debug.xcconfig */,
+				30AE36A972019DAFB0829024 /* Pods-TheMapleTimesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B92AC41C26610098001CE7E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B934C1982664DDAA009CEA61 /* TableViewCells */,
+				B95E7CA22660E6B200DBD261 /* HomeViewController.swift */,
+				B93960D1266E088000069A80 /* ArticlesByCategoryViewController.swift */,
+				B93960DB266F606D00069A80 /* ShareArticleViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B934C1982664DDAA009CEA61 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B920E22F26610B3600E169D7 /* MenuCell.swift */,
+				B934C1A12664DE5A009CEA61 /* SectionTitleCell.swift */,
+				B934C1992664DDC9009CEA61 /* MainStoryCell.swift */,
+				B93A02DE26661CDA00766CC1 /* SmallStoryCell.swift */,
+				B93960C2266A208800069A80 /* CovidTrackerCell.swift */,
+				B981E53F26BA942B002A8B6B /* FooterCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B934C1AB2664EE48009CEA61 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B934C1AC2664EE54009CEA61 /* String+Ext.swift */,
+				B93A02EC2666351700766CC1 /* UIFont+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B95E7C522660E5D500DBD261 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +192,8 @@
 				B95E7C772660E5D800DBD261 /* TheMapleTimesTests */,
 				B95E7C822660E5D800DBD261 /* TheMapleTimesUITests */,
 				B95E7C5C2660E5D500DBD261 /* Products */,
+				A71346089EB212A051F8DC76 /* Pods */,
+				47E80B0BE837F61612AB0AAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +210,13 @@
 		B95E7C5D2660E5D500DBD261 /* TheMapleTimes */ = {
 			isa = PBXGroup;
 			children = (
+				B98DEC3826610966000EAB74 /* Helpers */,
+				B95E7CBD2660F16F00DBD261 /* Model */,
+				B92AC41C26610098001CE7E9 /* View */,
+				B98DEC42266109FA000EAB74 /* View Model */,
+				B95E7CAA2660E76600DBD261 /* Networking */,
 				B95E7C5E2660E5D500DBD261 /* AppDelegate.swift */,
 				B95E7C602660E5D500DBD261 /* SceneDelegate.swift */,
-				B95E7C622660E5D500DBD261 /* ViewController.swift */,
-				B95E7C642660E5D500DBD261 /* Main.storyboard */,
 				B95E7C6A2660E5D800DBD261 /* Assets.xcassets */,
 				B95E7C6C2660E5D800DBD261 /* LaunchScreen.storyboard */,
 				B95E7C6F2660E5D800DBD261 /* Info.plist */,
@@ -131,6 +243,52 @@
 			path = TheMapleTimesUITests;
 			sourceTree = "<group>";
 		};
+		B95E7CAA2660E76600DBD261 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B95E7CAB2660E7BE00DBD261 /* API.swift */,
+				B95E7CB02660E8C400DBD261 /* FeedService.swift */,
+				B93960CC266A2AB100069A80 /* CovidTrackerService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B95E7CBD2660F16F00DBD261 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B95E7CB82660F16C00DBD261 /* Article.swift */,
+				B93960C7266A20A200069A80 /* CovidTracker.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B98DEC3826610966000EAB74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B934C1AB2664EE48009CEA61 /* Extension */,
+				B98DEC392661096B000EAB74 /* TMTKit */,
+				B934C1A62664DEFE009CEA61 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B98DEC392661096B000EAB74 /* TMTKit */ = {
+			isa = PBXGroup;
+			children = (
+				B98DEC3A26610985000EAB74 /* TMTMenuButton.swift */,
+			);
+			path = TMTKit;
+			sourceTree = "<group>";
+		};
+		B98DEC42266109FA000EAB74 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B920E23426610B5B00E169D7 /* MenuCellViewModel.swift */,
+				B93960D6266E0AFF00069A80 /* ArticlesByCategoryViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B95E7C882660E5D900DBD261 /* Build configuration list for PBXNativeTarget "TheMapleTimes" */;
 			buildPhases = (
+				A44F3F1F3A55EA00CB6897A6 /* [CP] Check Pods Manifest.lock */,
 				B95E7C572660E5D500DBD261 /* Sources */,
 				B95E7C582660E5D500DBD261 /* Frameworks */,
 				B95E7C592660E5D500DBD261 /* Resources */,
+				0275F6A7AEFD10B73BF9F4D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B95E7C8B2660E5D900DBD261 /* Build configuration list for PBXNativeTarget "TheMapleTimesTests" */;
 			buildPhases = (
+				7309EEFC2EED8E35906C069F /* [CP] Check Pods Manifest.lock */,
 				B95E7C702660E5D800DBD261 /* Sources */,
 				B95E7C712660E5D800DBD261 /* Frameworks */,
 				B95E7C722660E5D800DBD261 /* Resources */,
@@ -173,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B95E7C8E2660E5D900DBD261 /* Build configuration list for PBXNativeTarget "TheMapleTimesUITests" */;
 			buildPhases = (
+				2E56D7A67DEEB8053CCED8FC /* [CP] Check Pods Manifest.lock */,
 				B95E7C7B2660E5D800DBD261 /* Sources */,
 				B95E7C7C2660E5D800DBD261 /* Frameworks */,
 				B95E7C7D2660E5D800DBD261 /* Resources */,
+				0DE35BA2943937A024D10DF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +399,6 @@
 			files = (
 				B95E7C6E2660E5D800DBD261 /* LaunchScreen.storyboard in Resources */,
 				B95E7C6B2660E5D800DBD261 /* Assets.xcassets in Resources */,
-				B95E7C662660E5D500DBD261 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +418,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0275F6A7AEFD10B73BF9F4D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes/Pods-TheMapleTimes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes/Pods-TheMapleTimes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes/Pods-TheMapleTimes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DE35BA2943937A024D10DF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes-TheMapleTimesUITests/Pods-TheMapleTimes-TheMapleTimesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes-TheMapleTimesUITests/Pods-TheMapleTimes-TheMapleTimesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheMapleTimes-TheMapleTimesUITests/Pods-TheMapleTimes-TheMapleTimesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E56D7A67DEEB8053CCED8FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMapleTimes-TheMapleTimesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7309EEFC2EED8E35906C069F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMapleTimesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F3F1F3A55EA00CB6897A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMapleTimes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B95E7C572660E5D500DBD261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95E7CB92660F16C00DBD261 /* Article.swift in Sources */,
+				B920E23526610B5B00E169D7 /* MenuCellViewModel.swift in Sources */,
+				B934C1AD2664EE54009CEA61 /* String+Ext.swift in Sources */,
+				B95E7CB12660E8C400DBD261 /* FeedService.swift in Sources */,
+				B934C19A2664DDC9009CEA61 /* MainStoryCell.swift in Sources */,
+				B920E23026610B3600E169D7 /* MenuCell.swift in Sources */,
+				B93A02ED2666351700766CC1 /* UIFont+Ext.swift in Sources */,
+				B95E7CAC2660E7BE00DBD261 /* API.swift in Sources */,
+				B93960D2266E088000069A80 /* ArticlesByCategoryViewController.swift in Sources */,
+				B981E54026BA942B002A8B6B /* FooterCell.swift in Sources */,
+				B93960D7266E0AFF00069A80 /* ArticlesByCategoryViewModel.swift in Sources */,
+				B93960C8266A20A200069A80 /* CovidTracker.swift in Sources */,
+				B93960CD266A2AB100069A80 /* CovidTrackerService.swift in Sources */,
+				B95E7CA32660E6B200DBD261 /* HomeViewController.swift in Sources */,
+				B93A02DF26661CDA00766CC1 /* SmallStoryCell.swift in Sources */,
+				B98DEC3B26610985000EAB74 /* TMTMenuButton.swift in Sources */,
 				B95E7C692660E5D500DBD261 /* TheMapleTimes.xcdatamodeld in Sources */,
-				B95E7C632660E5D500DBD261 /* ViewController.swift in Sources */,
 				B95E7C5F2660E5D500DBD261 /* AppDelegate.swift in Sources */,
+				B93960C3266A208800069A80 /* CovidTrackerCell.swift in Sources */,
+				B93960DC266F606D00069A80 /* ShareArticleViewController.swift in Sources */,
+				B934C1A72664DEFE009CEA61 /* Constants.swift in Sources */,
+				B934C1A22664DE5A009CEA61 /* SectionTitleCell.swift in Sources */,
 				B95E7C612660E5D500DBD261 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +584,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B95E7C642660E5D500DBD261 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B95E7C652660E5D500DBD261 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B95E7C6C2660E5D800DBD261 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,18 +713,20 @@
 		};
 		B95E7C892660E5D900DBD261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BFD459351FE6001042EB96 /* Pods-TheMapleTimes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodamato.TheMapleTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,18 +734,20 @@
 		};
 		B95E7C8A2660E5D900DBD261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C576265785F212888918AB77 /* Pods-TheMapleTimes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodamato.TheMapleTimes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,10 +755,11 @@
 		};
 		B95E7C8C2660E5D900DBD261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65D3871AC8BE886E87FF14 /* Pods-TheMapleTimesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -489,6 +770,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMapleTimes.app/TheMapleTimes";
@@ -497,10 +779,11 @@
 		};
 		B95E7C8D2660E5D900DBD261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AE36A972019DAFB0829024 /* Pods-TheMapleTimesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimesTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -511,6 +794,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheMapleTimes.app/TheMapleTimes";
@@ -519,9 +803,10 @@
 		};
 		B95E7C8F2660E5D900DBD261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E551D7D1B71A821D2EBF95C5 /* Pods-TheMapleTimes-TheMapleTimesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -531,6 +816,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheMapleTimes;
@@ -539,9 +825,10 @@
 		};
 		B95E7C902660E5D900DBD261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83B0355BA7AC6ADF1A8B596 /* Pods-TheMapleTimes-TheMapleTimesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				INFOPLIST_FILE = TheMapleTimesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -551,6 +838,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.devleo.TheMapleTimesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.leodamato.TheMapleTimes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TheMapleTimes;

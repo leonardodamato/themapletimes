@@ -8,13 +8,24 @@
 import Foundation
 
 enum FeedURL: String {
-    case canada = "https://globalnews.ca/canada/feed/"
-    case world = "https://globalnews.ca/world/feed/"
-    case politics = "https://globalnews.ca/politics/feed/"
-    case money = "https://globalnews.ca/money/feed/"
-    case health = "https://globalnews.ca/health/feed/"
-    case entertainment = "https://globalnews.ca/entertainment/feed/"
-    case environment = "https://globalnews.ca/environment/feed/"
-    case tech = "https://globalnews.ca/tech/feed/"
-    case sports = "https://globalnews.ca/sports/feed/"
+    case canada = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fcanada%2Ffeed%2F&"
+    case world = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fworld%2Ffeed%2F&"
+    case politics = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fpolitics%2Ffeed%2F&"
+    case money = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fmoney%2Ffeed%2F&"
+    case health = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fhealth%2Ffeed%2F&"
+    case entertainment = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fentertainment%2Ffeed%2F&"
+    case environment = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fenvironment%2Ffeed%2F&"
+    case tech = "rss_url=https%3A%2F%2Fglobalnews.ca%2Ftech%2Ffeed%2F&"
+    case sports = "rss_url=https%3A%2F%2Fglobalnews.ca%2Fsports%2Ffeed%2F&"
+    
+    
+    var getURL: URL {
+        let url = "\(API.rootURL)\(self.rawValue)\(API.apiKey)"
+        return URL(string: url)!
+    }
+}
+
+struct API {
+    static let rootURL = "https://api.rss2json.com/v1/api.json?"
+    static let apiKey = "api_key=xwecphii0vzyp2xjowkvsycvny5jpkltdewbknt8"
 }
